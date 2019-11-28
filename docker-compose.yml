@@ -12,6 +12,9 @@ services:
     ports:
       - '3050:80'
   api:
+    api:
+      depends_on:
+        - postgres
     build:
       dockerfile: Dockerfile.dev
       context: ./server
