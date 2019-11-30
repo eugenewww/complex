@@ -1,5 +1,4 @@
 const keys = require('./keys');
-console.log(11111111, keys);
 
 // Express App Setup
 const express = require('express');
